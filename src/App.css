@@ -1,0 +1,79 @@
+/* App.css */
+body {
+    background-color: #f0f0f0;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+/* WeatherInfo.css */
+.weather-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.location-info {
+    margin-top: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.chatbot {
+    min-height: 100vh;
+    display: flex;
+}
+
+.sideBar {
+    flex: 3;
+    border-right: 1px solid rgb(100, 100, 100);
+}
+
+.main {
+    flex: 9;
+}
+
+.logo {
+    margin-right: 1em;
+}
+
+.upperSideTop {
+    padding: 2 rem;
+}
+
+.chat-container {
+    background-color: #fff;
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #292626;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.user-message {
+    background-color: #e6e6e6;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.bot-message {
+    background-color: #808080;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+}
